@@ -1,4 +1,14 @@
 {
   "name": "typescript-template",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "scripts": {
+    "run": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@suimenkathemove/tsconfig": "^0.1.9",
+    "ts-node": "^10.9.1"
+  }
 }
