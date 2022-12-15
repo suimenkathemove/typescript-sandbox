@@ -1,3 +1,12 @@
 {
-  "extends": "@suimenkathemove/tsconfig"
+  "extends": "@suimenkathemove/tsconfig",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
 }
