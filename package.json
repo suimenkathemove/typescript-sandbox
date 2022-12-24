@@ -1,5 +1,5 @@
 {
-  "name": "typescript-template",
+  "name": "typescript-sandbox",
   "version": "0.1.0",
   "scripts": {
     "postinstall": "typesync",

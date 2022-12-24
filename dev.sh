@@ -5,7 +5,7 @@ DEV_PATH="$HOME/development"
 SCOPE_PATH="$DEV_PATH/suimenkathemove"
 
 # EDIT THIS
-PROJECT_NAME="typescript-template"
+PROJECT_NAME="typescript-sandbox"
 
 cd "$SCOPE_PATH/$PROJECT_NAME" || exit
 
