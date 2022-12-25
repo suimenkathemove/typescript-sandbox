@@ -122,10 +122,14 @@
   dependencies:
     prettier "^2.8.1"
 
-"@suimenkathemove/tsconfig@^0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@suimenkathemove/tsconfig/-/tsconfig-0.1.9.tgz#efd4189b67ca345b9cef48cb57c279230070c587"
-  integrity sha512-6uUAJV5fkp6ffumHbWZ1DgojGv+gBLn/WIV9EjhF/vFs0ahG0Nb5EgA7zIht49MEcE5iirDUlsOmXRCv8psFaQ==
+"@suimenkathemove/tsconfig@^0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@suimenkathemove/tsconfig/-/tsconfig-0.1.12.tgz#92260819a4df458bd39c0f504bf9a285f6852d68"
+  integrity sha512-5pYGILZId3Vyf/1g/9HoUCFJv6IB5yMuh1i+8hl6AIpXGD93o0Ren3b9ZbtIPrNJoMoc/nAPgGRpxchgE3Fq1g==
+  dependencies:
+    tsconfig-paths "^4.1.1"
+    typescript "^4.9.4"
+    typesync "^0.9.2"
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
