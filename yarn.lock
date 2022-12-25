@@ -115,6 +115,13 @@
     eslint-plugin-import "^2.26.0"
     prettier "^2.8.1"
 
+"@suimenkathemove/prettier-config@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@suimenkathemove/prettier-config/-/prettier-config-0.1.1.tgz#11b15bdf8989b663890ea086c00a95d95da41e6f"
+  integrity sha512-RJPz3iJPohM/hQM6/TQiMyFPsCntKaoQE8XEYzvmAKTiZ4hG+tUyTLK/IL5F7OSQ9WNnS47g44VQ+xDM0WK2KA==
+  dependencies:
+    prettier "^2.8.1"
+
 "@suimenkathemove/tsconfig@^0.1.9":
   version "0.1.9"
   resolved "https://registry.yarnpkg.com/@suimenkathemove/tsconfig/-/tsconfig-0.1.9.tgz#efd4189b67ca345b9cef48cb57c279230070c587"

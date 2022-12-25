@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@suimenkathemove/eslint-config": "^0.1.2",
+    "@suimenkathemove/prettier-config": "^0.1.1",
     "@suimenkathemove/tsconfig": "^0.1.9",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.1.1",
