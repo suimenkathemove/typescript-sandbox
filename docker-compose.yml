@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  typescript-sandbox:
+    build: .
+    image: typescript-sandbox
+    container_name: typescript-sandbox
