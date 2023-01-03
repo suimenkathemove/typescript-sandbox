@@ -1,15 +1,15 @@
 type T = Record<"foo" | "bar", string | number>;
 
-const sample1 = { foo: "", bar: 0 } satisfies T;
-// string
+const sample1: T = { foo: "", bar: 0 };
+// string | number
 sample1.foo;
-// number
+// string | number
 sample1.bar;
 
-const sample2: T = { foo: "", bar: 0 };
-// string | number
+const sample2 = { foo: "", bar: 0 } satisfies T;
+// string
 sample2.foo;
-// string | number
+// number
 sample2.bar;
 
 const sample3 = { foo: "", bar: 0 } as const satisfies T;
