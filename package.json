@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "scripts": {
     "postinstall": "typesync",
-    "run": "ts-node src/index.ts"
+    "run": "ts-node src/index.ts",
+    "test": "vitest"
   },
   "devDependencies": {
     "@suimenkathemove/eslint-config": "^0.1.2",
     "@suimenkathemove/prettier-config": "^0.1.1",
     "@suimenkathemove/tsconfig": "^0.1.12",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "vitest": "^0.29.7"
   }
 }
