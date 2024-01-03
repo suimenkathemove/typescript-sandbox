@@ -6,11 +6,15 @@
     "run": "ts-node src/index.ts",
     "test": "vitest"
   },
+  "dependencies": {
+    "@suimenkathemove/tsconfig": "^0.1.16",
+    "typescript": "5.2.2"
+  },
   "devDependencies": {
     "@suimenkathemove/eslint-config": "^0.1.2",
     "@suimenkathemove/prettier-config": "^0.1.1",
-    "@suimenkathemove/tsconfig": "^0.1.12",
     "ts-node": "^10.9.1",
+    "typesync": "^0.12.0",
     "vitest": "^0.29.7"
   }
 }
