@@ -1,0 +1,8 @@
+{
+  "extends": "@suimenkathemove/tsconfig",
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "jsx": "react-jsx",
+    "module": "ESNext"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@suimenkathemove/stylelint-config",
+  "version": "0.1.4",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "postcss-scss": "^4.0.9",
+    "postcss-styled-syntax": "^0.6.3",
+    "stylelint": "^16.1.0",
+    "stylelint-config-recess-order": "^4.4.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-order": "^6.0.4"
+  }
+}

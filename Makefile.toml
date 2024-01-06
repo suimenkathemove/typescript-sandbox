@@ -5,9 +5,12 @@ docker compose up --build
 
 [tasks.upgrade-all]
 script = '''
-makers upgrade eslint-config
-makers upgrade prettier-config
 makers upgrade tsconfig
+makers upgrade frontend-tsconfig
+makers upgrade eslint-config
+makers upgrade frontend-eslint-config
+makers upgrade prettier-config
+makers upgrade stylelint-config
 '''
 
 [tasks.upgrade]

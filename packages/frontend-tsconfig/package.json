@@ -1,0 +1,15 @@
+{
+  "name": "@suimenkathemove/frontend-tsconfig",
+  "version": "0.1.7",
+  "license": "MIT",
+  "files": [
+    "tsconfig.json"
+  ],
+  "dependencies": {
+    "@suimenkathemove/tsconfig": "^0.1.16"
+  },
+  "peerDependencies": {
+    "typescript": "^5.3.2",
+    "typesync": "^0.11.1"
+  }
+}
