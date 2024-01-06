@@ -1,6 +1,7 @@
 {
   "name": "typescript-sandbox",
   "version": "0.1.0",
+  "license": "MIT",
   "engines": {
     "node": "20.x",
     "pnpm": ">=3"
@@ -10,6 +11,7 @@
     "run": "ts-node src/index.ts",
     "tsc": "tsc --noEmit",
     "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "format": "prettier --write --log-level=warn '**/*.{js,jsx,ts,tsx,html,gql,graphql,json}'",
     "test": "vitest"
   },
   "dependencies": {

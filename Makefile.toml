@@ -2,3 +2,16 @@
 script = '''
 docker compose up --build
 '''
+
+[tasks.upgrade-all]
+script = '''
+makers upgrade eslint-config
+makers upgrade prettier-config
+makers upgrade tsconfig
+'''
+
+[tasks.upgrade]
+script = '''
+cd ./packages/${@}
+npx npm-check-updates -u
+'''
