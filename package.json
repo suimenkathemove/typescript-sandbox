@@ -14,14 +14,12 @@
     "format": "prettier --write --log-level=warn '**/*.{js,jsx,ts,tsx,html,gql,graphql,json}'",
     "test": "vitest"
   },
-  "dependencies": {
-    "@suimenkathemove/tsconfig": "^0.1.17",
-    "typescript": "5.2.2"
-  },
   "devDependencies": {
     "@suimenkathemove/eslint-config": "^0.1.10",
     "@suimenkathemove/prettier-config": "^0.1.4",
+    "@suimenkathemove/tsconfig": "^0.1.17",
     "ts-node": "^10.9.2",
+    "typescript": "5.2.2",
     "typesync": "^0.12.0",
     "vitest": "^1.1.1"
   }
