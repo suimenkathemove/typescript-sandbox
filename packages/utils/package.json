@@ -11,7 +11,8 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-    "build": "ts-node bin/build.ts && tsc"
+    "tsc": "tsc --noEmit",
+    "build": "ts-node bin/build.ts && tsc --declaration --emitDeclarationOnly"
   },
   "devDependencies": {
     "@suimenkathemove/tsconfig": "^0.1.17",

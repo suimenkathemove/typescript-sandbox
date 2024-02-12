@@ -11,6 +11,7 @@
     "run": "ts-node src/index.ts",
     "tsc": "tsc --noEmit",
     "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "lint:fix": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
     "format": "prettier --write --log-level=warn '**/*.{js,jsx,ts,tsx,html,gql,graphql,json}'",
     "test": "vitest"
   },

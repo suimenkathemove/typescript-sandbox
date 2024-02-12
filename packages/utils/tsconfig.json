@@ -1,9 +1,7 @@
 {
   "extends": "@suimenkathemove/tsconfig",
   "compilerOptions": {
-    "outDir": "./dist",
-    "declaration": true,
-    "emitDeclarationOnly": true
+    "outDir": "./dist"
   },
   "include": ["lib/index.ts"],
   "exclude": ["node_modules"]
