@@ -1,7 +1,10 @@
 {
   "extends": "@suimenkathemove/tsconfig",
   "compilerOptions": {
-    "outDir": "./dist"
+    "outDir": "./dist",
+
+    // TODO: remove
+    "exactOptionalPropertyTypes": false
   },
   "include": ["lib/index.ts"],
   "exclude": ["node_modules"]
