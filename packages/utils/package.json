@@ -1,6 +1,6 @@
 {
   "name": "@suimenkathemove/utils",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "MIT",
   "engines": {
     "node": "20.x",
@@ -12,7 +12,7 @@
   "main": "dist/index.js",
   "scripts": {
     "tsc": "tsc --noEmit",
-    "build": "ts-node bin/build.ts && tsc --declaration --emitDeclarationOnly"
+    "build": "rm -rf dist && ts-node bin/build.ts && tsc --declaration --emitDeclarationOnly"
   },
   "devDependencies": {
     "@suimenkathemove/tsconfig": "^0.1.17",
