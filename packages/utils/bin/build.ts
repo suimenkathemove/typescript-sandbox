@@ -1,10 +1,14 @@
-import * as path from "path";
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const path = require("path");
 
-import { build } from "esbuild";
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { build } = require("esbuild");
 
 void build({
   entryPoints: [path.resolve(__dirname, "../lib/index.ts")],
   bundle: true,
-  outdir: "dist",
-  platform: "node",
+  outfile: "dist/index.js",
+  format: "cjs",
+  minify: true,
+  sourcemap: true,
 });

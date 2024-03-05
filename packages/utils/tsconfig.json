@@ -7,5 +7,5 @@
     "exactOptionalPropertyTypes": false
   },
   "include": ["lib/index.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"]
 }
