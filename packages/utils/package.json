@@ -12,11 +12,13 @@
   "main": "dist/index.js",
   "scripts": {
     "tsc": "tsc --noEmit",
-    "build": "rm -rf dist && ts-node bin/build.ts && tsc --declaration --emitDeclarationOnly"
+    "build": "rm -rf dist && ts-node bin/build.ts && dts-bundle-generator -o dist/index.d.ts lib/index.ts --project tsconfig.build.json",
+    "pub": "pnpm build && pnpm publish"
   },
   "devDependencies": {
     "@suimenkathemove/tsconfig": "^0.1.17",
     "@types/node": "^20.11.17",
+    "dts-bundle-generator": "^9.3.1",
     "esbuild": "^0.20.0",
     "ts-node": "^10.9.2",
     "typescript": "5.2.2"
