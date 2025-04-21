@@ -13,6 +13,8 @@
     "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
     "format": "prettier --write --log-level=warn '**/*.{js,jsx,ts,tsx,html,gql,graphql,json}'",
+    "biome:lint": "biome check",
+    "biome:format": "biome check --write",
     "test": "vitest"
   },
   "devDependencies": {
