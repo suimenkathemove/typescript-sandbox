@@ -16,6 +16,7 @@
     "test": "vitest"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@suimenkathemove/eslint-config": "^0.1.10",
     "@suimenkathemove/prettier-config": "^0.1.4",
     "@suimenkathemove/tsconfig": "^0.1.17",
